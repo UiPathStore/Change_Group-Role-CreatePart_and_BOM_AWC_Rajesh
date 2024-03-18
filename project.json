@@ -1,0 +1,83 @@
+{
+  "name": "TestAutomationProject_Group",
+  "projectId": "86a22ae5-7658-421d-a883-a3de48e5510b",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[24.2.0-preview]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.164206059",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b0fb33a0-1160-4d42-9250-7067fdbbe160",
+        "testCaseType": "TestCase",
+        "fileName": "DiffrentBOM.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4c63f064-4a87-41b9-86fb-41a2dda6c8ab",
+        "testCaseType": "TestCase",
+        "fileName": "MatchBOM.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7ec800f6-3e01-4eed-bad4-29e5779b6232",
+        "testCaseType": "TestCase",
+        "fileName": "Verify_Group_and_Role_Change.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1186badc-9f0d-48d3-8016-bcaa9f81a90a",
+        "testCaseType": "TestCase",
+        "fileName": "Verify_Group_Change.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e18b7dc9-1d2c-4746-9e9e-15e3de597136",
+        "testCaseType": "TestCase",
+        "fileName": "Verify_Create_Part.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
